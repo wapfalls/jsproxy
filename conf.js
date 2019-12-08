@@ -21,13 +21,14 @@ jsproxy_config({
       }
     },
     'demo-sg': {
-      label: '演示服务-新加坡节点',
+      label: 'Paris Node',
       lines: {
-        'node-aliyun-sg.etherdream.com:8443': 1,
+        //'node-aliyun-sg.etherdream.com:8443': 1,
+        'fr.proxysite.site': 1,
       },
     },
     'mysite': {
-      label: '当前站点',
+      label: 'Current site',
       lines: {
         [location.host]: 1,
       }
