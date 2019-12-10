@@ -21,10 +21,10 @@ jsproxy_config({
       }
     },
     'demo-sg': {
-      label: 'Paris Node',
+      label: 'Paris Node demo',
       lines: {
-        //'node-aliyun-sg.etherdream.com:8443': 1,
-        'fr.proxysite.site': 1,
+        'node-aliyun-sg.etherdream.com:8443': 1,
+        //'fr.proxysite.site': 1,
       },
     },
     'mysite': {
